@@ -1,0 +1,38 @@
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 60px;
+  background-color: #413f51;
+  color: #f4f4f4;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  min-height: 100vw;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+  margin: 5px 0 15px 0;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.head-image {
+  border: 8px solid #f4f4f4;
+  border-radius: 50%;
+}
+img {
+  min-width: 400px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 5px solid #f4f4f4;
+}
+img:hover {
+  transform: scale(1.2);
+}
+.contenidor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px 20px 40px 20px;
+}
